@@ -12,3 +12,17 @@ def carregar_dados():
     df['genres'] = df['genres'].str.split(',').str[0]
 
     return df
+
+def classificar_periodo(ano):
+    if 1920 <= ano <= 1939:
+        return '1920-1939'
+    elif 1940 <= ano <= 1959:
+        return '1940-1959'
+    elif 1960 <= ano <= 1979:
+        return '1960-1979'
+    elif 1980 <= ano <= 1999:
+        return '1980-1999'
+    elif 2000 <= ano <= 2020:
+        return '2000-2020'
+    else:
+        return 'Fora do intervalo'
