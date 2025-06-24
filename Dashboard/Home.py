@@ -2,11 +2,11 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-st.set_page_config(page_title="Top 5000 IMDb", page_icon="./Dashboard/imgs/logo.jpg", layout="wide")
+st.set_page_config(page_title="Top 5000 IMDb", page_icon="https://raw.githubusercontent.com/lucasfreirec/datascience/refs/heads/main/Dashboard/imgs/logo.jpg", layout="wide")
 
 st.title('Top 5000 filmes do IMDb')
 
-st.sidebar.image("./Dashboard/imgs/logo.jpg", width=150)
+st.sidebar.image("https://raw.githubusercontent.com/lucasfreirec/datascience/refs/heads/main/Dashboard/imgs/logo.jpg", width=150)
 
 st.sidebar.title("DASHBOARD - CIÊNCIA DE DADOS")
 
