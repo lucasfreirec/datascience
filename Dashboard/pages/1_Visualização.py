@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 from utils import *
 
-st.set_page_config(page_title="Visualização", page_icon="../imgs/logo.jpg", layout="wide")
+st.set_page_config(page_title="Visualização", page_icon="./Dashboard/imgs/logo.jpg", layout="wide")
 
 st.title("Visualização dos dados")
 

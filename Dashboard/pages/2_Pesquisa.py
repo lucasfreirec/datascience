@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from utils import carregar_dados
 
-st.set_page_config(page_title="Pesquisa", page_icon="./imgs/logo.jpg", layout="wide")
+st.set_page_config(page_title="Pesquisa", page_icon="./Dashboard/imgs/logo.jpg", layout="wide")
 
 
 
