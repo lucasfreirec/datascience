@@ -6,7 +6,7 @@ st.set_page_config(page_title="Pesquisa", page_icon="./Dashboard/imgs/logo.jpg",
 
 df_imdb = carregar_dados()
 
-st.title("🔎 Ferramenta de Análise de Filmes")
+st.title("Ferramenta de Análise de Filmes")
 st.markdown("Utilize os filtros abaixo para encontrar e analisar filmes por título, diretor, ano e nota.")
 
 st.sidebar.header('Filtros de Pesquisa')
