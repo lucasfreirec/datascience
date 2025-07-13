@@ -69,7 +69,7 @@ st.title("Encontre filmes parecidos com os que você já gosta")
 st.markdown("""
 A recomendação é baseada numa análise híbrida de cada filme, combinando todos os gêneros e diretores com nota, popularidade, ano e duração (Dados númericos).
 
-**Nota sobre o modelo:** O algoritmo não analisa o enredo, ele é excelente a encontrar filmes com um estilo de direção e gênero semelhantes. No entanto, pode não identificar franquias diretas se o diretor for diferente, funcionando mais como um **"Recomendador de estilos"**.
+**Nota sobre o modelo:** O algoritmo não analisa o enredo, ele é excelente a encontrar filmes com um estilo de direção e gênero semelhantes. No entanto, pode não identificar franquias diretas se o diretor for diferente, por exemplo.
 """)
 st.markdown("---")
 
