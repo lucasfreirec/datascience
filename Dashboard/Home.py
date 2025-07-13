@@ -60,13 +60,16 @@ st.image("https://raw.githubusercontent.com/lucasfreirec/datascience/main/Dashbo
 st.markdown("---")
 st.header('Explore as Análises')
 
-col_vis, col_pesq = st.columns(2)
+col_vis, col_pesq, col_rec = st.columns(3)
 with col_vis:
     st.subheader('Visualização de Dados')
     st.markdown('Acesse aqui a visão geral do perfil dos top 5000 filmes através de gráficos interativos.')
-    st.page_link("pages/1_Visualização.py", label="**Ir para a página de visualização**", icon="➡️")
+    st.page_link("pages/1_Visualizar.py", label="**Ir para a página de visualização**", icon="➡️")
 with col_pesq:
     st.subheader('Pesquisa Detalhada')
     st.markdown('Acesse aqui para realizar pesquisas por título, ano, diretor e outros filtros.')
-    st.page_link("pages/2_Pesquisa.py", label="**Ir para a página de pesquisa**", icon="➡️")
-
+    st.page_link("pages/2_Pesquisar.py", label="**Ir para a página de pesquisa**", icon="➡️")
+with col_rec:
+    st.subheader('Recomendação de filmes')
+    st.markdown('Acesse aqui para ter uma recomendação de filmes.')
+    st.page_link("pages/3_O_que_assistir?.py", label="**Ir para a página de recomenddação**", icon="➡️")

@@ -1,0 +1,38 @@
+# Ativa o serviço de arquivos estáticos para carregar as fontes
+[server]
+enableStaticServing = true
+
+# Definição das fontes locais (devem estar na pasta app/static)
+[[theme.fontFaces]]
+family = "SpaceMono"
+url = "Dashboard/static/SpaceMono-Regular.ttf"
+style="normal"
+weight=400
+
+[[theme.fontFaces]]
+family = "SpaceMono"
+url = "Dashboard/static/SpaceMono-Italic.ttf"
+style="italic"
+weight=400
+
+[[theme.fontFaces]]
+family = "SpaceMono"
+url = "Dashboard/static/SpaceMono-Bold.ttf"
+style="normal"
+weight=700
+
+[[theme.fontFaces]]
+family = "SpaceMono"
+url = "Dashboard/static/SpaceMono-BoldItalic.ttf"
+style="italic"
+weight=700
+
+# Definição do Tema Principal
+[theme]
+base = "dark"
+# Cor primária alterada para Amarelo Gema
+primaryColor = "#FFC72C" 
+backgroundColor = "#121212"
+secondaryBackgroundColor = "#333333"
+textColor = "#FFFFFF"
+font = "SpaceMono"
